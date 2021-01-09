@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row container-fluid">
+{% for G in gallery %}
+    <div class="col-sm-12 col-md-4 col-lg-3 PreviousWorkRow">
+       <img src="{{ G.image.url }}" alt="{{G.name}}" class="PreviousWork">
+    </div>
+ 
+{% endfor %} 
+</div>
+
+
+
+{% endblock %}

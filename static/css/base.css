@@ -125,6 +125,47 @@ hr {
     font-size: 22px;
   
 }
+/*-- GALLERY --*/
+
+.PreviousWork {
+    max-width: 250px;
+    max-height: 300px;
+    padding: 20px;
+}
+
+.PreviousWorkRow {
+    text-align: center;
+}
+
+/*-- CONTACT PAGE --*/
+
+.contact {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #c0b69e;
+}
+
+.ContactHeader {
+    color: #c0b69e;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+.contactbutton {
+    background-color: #c0b69e;
+    border: #343c56;
+    color: #343c56;
+    border-radius: 10%;
+    width: 70px;
+}
 }
 
 /*-- For medium or smaller screens --*/
@@ -180,7 +221,7 @@ hr {
 .MeetTheTeam {
     color: #c0b69e;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 15px;
 }
 
@@ -207,7 +248,62 @@ hr {
     text-align: center;
     margin-left: 25px;
 }
+/*-- GALLERY --*/
+
+.PreviousWork {
+    max-width: 250px;
+    max-height: 300px;
+    padding: 20px;
 }
+
+.PreviousWorkRow {
+    text-align: center;
+}
+
+/*-- CONTACT PAGE --*/
+
+.contact {
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #c0b69e;
+}
+
+.ContactHeader {
+    color: #c0b69e;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+.contactbutton {
+    background-color: #c0b69e;
+    border: #343c56;
+    color: #343c56;
+    border-radius: 10%;
+    width: 50px;
+}
+}
+
+/*-- GALLERY --*/
+
+.PreviousWork {
+    max-width: 250px;
+    max-height: 300px;
+    padding: 20px;
+}
+
+.PreviousWorkRow {
+    text-align: center;
+}
+
+
 
 
 

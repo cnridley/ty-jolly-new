@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1 class="ContactHeader">Contact</h1>
+<hr>
+
+<div class="row contact">
+   
+<form id="contact-form">
+        <input type="hidden" name="contact_number" size="50">
+        <div>Name:</div>
+        <input type="text" name="user_name" size="50">
+        <div>Email:</div>
+        <input type="email" name="user_email" size="50">
+        <div>Message:</div>
+        <textarea name="message" cols="50" rows="8"></textarea><br>
+        <input type="submit" value="Send" class="contactbutton">
+    </form>
+</div>
+
+{% endblock %}
+
