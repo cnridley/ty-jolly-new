@@ -21,34 +21,43 @@ body {
     width: 100%;
 }
 
-.navbar-toggler {
-    background-color: #c0b69e;
-    border-radius: 0%;
-    color: #343c56;
-    padding: 10px;
-   margin: 15px;
-   font-size: 20px;
-   border-color: #343c56;
-   border-radius: 10px;
-   border-width: 2px;
+.navbarDiv {
+    margin-left: 15px;
 }
+
+.nav-item:hover {
+    color: whitesmoke;
+}
+
+
 
 
 /*-- INDEX.HTML --*/
-
-.FirstParagraph {
-    color: #c0b69e;
-    text-align: left;
-    margin: 20px;
-    font-size: 22px;
-    text-align: center;
-}
-
 hr {
     background-color: #c0b69e;
     height: 3px;
     width: 75%;
 }
+
+.ImageRow {
+    justify-content: center;
+    text-align: center;
+}
+
+.SecondRow {
+    margin-left: 15px;
+}
+
+
+/* -- For large screens --*/
+@media screen and (max-width: 2000px) {
+    .FirstParagraph {
+    color: #c0b69e;
+    margin: 20px;
+    font-size: 22px;
+    justify-content: center;
+}
+
 
 .SecondParagraph {
     color: #c0b69e;
@@ -63,11 +72,88 @@ hr {
     margin: 20px;
     border-radius: 30px;
 }
+.ThirdParagraph {
+    color: #c0b69e;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
 
+.nav-item {
+    color: #c0b69e;
+    text-align: right;
+    font-size: 22px;
+}
+.navbar-toggler {
+    background-color: #c0b69e;
+    border-radius: 0%;
+    color: #343c56;
+    padding: 10px;
+   margin: 15px;
+   font-size: 20px;
+   border-color: #343c56;
+   border-radius: 10px;
+   border-width: 2px;
+}
+}
+
+/*-- For medium or smaller screens --*/
+@media only screen and (max-width: 768px) {
+    .FirstParagraph {
+    color: #c0b69e;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.SecondParagraph {
+    color: #c0b69e;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.HomePageImage {
+    max-width: 200px;
+    max-height: 150px;
+    margin: 20px;
+    border-radius: 30px;
+}
 .ThirdParagraph {
     color: #c0b69e;
     text-align: center;
     margin: auto;
-    padding-top: 30px;
-    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
 }
+
+.nav-item {
+    color: #c0b69e;
+    text-align: right;
+    font-size: 12px;
+}
+
+.navbar-toggler {
+    background-color: #c0b69e;
+    border-radius: 0%;
+    color: #343c56;
+    padding: 10px;
+   margin: 15px;
+   font-size: 12px;
+   border-color: #343c56;
+   border-radius: 10px;
+   border-width: 2px;
+}
+}
+
+
+
+
+
+
+
+
+
