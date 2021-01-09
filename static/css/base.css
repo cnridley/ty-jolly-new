@@ -6,6 +6,15 @@ body {
     
 }
 
+a {
+    color: #c0b69e;
+}
+
+a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 /*-- BASE.HTML --*/
 .logo {
     max-width: 80%;
