@@ -1,18 +1,47 @@
 body {
     background-color: #343c56;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    
 }
 
+/*-- BASE>HTML --*/
 .logo {
-    max-width: 30%;
-    max-height: 20%;
-    margin: 20px;
+    max-width: 80%;
+    max-height: 80%;
 }
+
+.navbar-brand {
+    max-width: 50%;
+}
+
+.navbar {
+    background-color: #343c56;
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #c0b69e;
+    border-radius: 0%;
+    color: #343c56;
+    padding: 10px;
+   margin: 15px;
+   font-size: 20px;
+   border-color: #343c56;
+   border-radius: 10px;
+   border-width: 2px;
+}
+
+
+/*-- INDEX.HTML --*/
 
 .FirstParagraph {
     color: #c0b69e;
     text-align: left;
-    text-transform: uppercase;
     margin: 20px;
+    font-size: 22px;
+    text-align: center;
 }
 
 hr {
@@ -23,9 +52,9 @@ hr {
 
 .SecondParagraph {
     color: #c0b69e;
-    text-align: left;
-    text-transform: uppercase;
+    text-align: center;
     padding-top: 50px;
+    font-size: 22px;
 }
 
 .HomePageImage {
@@ -38,7 +67,7 @@ hr {
 .ThirdParagraph {
     color: #c0b69e;
     text-align: center;
-    text-transform: uppercase;
     margin: auto;
     padding-top: 30px;
+    font-size: 22px;
 }
