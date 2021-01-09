@@ -6,7 +6,7 @@ body {
     
 }
 
-/*-- BASE>HTML --*/
+/*-- BASE.HTML --*/
 .logo {
     max-width: 80%;
     max-height: 80%;
@@ -28,8 +28,6 @@ body {
 .nav-item:hover {
     color: whitesmoke;
 }
-
-
 
 
 /*-- INDEX.HTML --*/
@@ -97,6 +95,36 @@ hr {
    border-radius: 10px;
    border-width: 2px;
 }
+
+/*-- MEET THE TEAM --*/
+
+.MeetTheTeam {
+    color: #c0b69e;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.TyHeadshot {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+.TyJolly{
+    color: #c0b69e;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.AboutMeText{
+    color: #c0b69e;
+    font-size: 22px;
+  
+}
 }
 
 /*-- For medium or smaller screens --*/
@@ -147,7 +175,40 @@ hr {
    border-radius: 10px;
    border-width: 2px;
 }
+/*-- MEET THE TEAM --*/
+
+.MeetTheTeam {
+    color: #c0b69e;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
 }
+
+.TyHeadshot {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+.TyJolly{
+    color: #c0b69e;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.AboutMeText{
+    color: #c0b69e;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 25px;
+}
+}
+
 
 
 
