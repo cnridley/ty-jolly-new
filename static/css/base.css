@@ -312,6 +312,12 @@ input, textarea {
     text-align: center;
 }
 
+.modal-header {
+    background-color: #343c56;
+    color: #c0b69e;
+    border: #c0b69e solid 3px;
+    text-align: center;
+}
 
 
 
