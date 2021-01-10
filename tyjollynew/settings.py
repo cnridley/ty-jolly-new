@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'team',
     'gallery',
     'contact',
-    'storage',
+    'storages',
 ]
 
 MIDDLEWARE = [
