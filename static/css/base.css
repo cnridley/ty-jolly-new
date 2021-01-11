@@ -15,10 +15,14 @@ a:hover {
     text-decoration: none;
 }
 
+.headshot {
+    text-align: center;
+}
+
 /*-- BASE.HTML --*/
 .logo {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 .navbar-brand {
